@@ -1,0 +1,1 @@
+export const basicStringType = { type: String, required: true, minLength: 3, maxLength: 500 }

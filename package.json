@@ -1,0 +1,16 @@
+
+  {
+    "name": "tower2",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd tower2.client && npm i",
+      "setup:server": "cd tower2 && npm i",
+      "start": "node tower2/index.js"
+    },
+    "engines": {
+      "node": "^18.12.1"
+    }
+  }
+  
